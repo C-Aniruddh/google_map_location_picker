@@ -128,6 +128,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   front_end:
     dependency: transitive
     description:
@@ -163,12 +168,19 @@ packages:
       relative: true
     source: path
     version: "3.3.1"
+  google_maps:
+    dependency: transitive
+    description:
+      name: google_maps
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.4.2"
   google_maps_flutter:
     dependency: transitive
     description:
-      name: google_maps_flutter
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../google_maps_flutter/google_maps_flutter"
+      relative: true
+    source: path
     version: "0.5.27"
   google_maps_flutter_platform_interface:
     dependency: transitive
@@ -177,6 +189,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
+  google_maps_flutter_web:
+    dependency: transitive
+    description:
+      path: "../google_maps_flutter/google_maps_flutter_web"
+      relative: true
+    source: path
+    version: "0.0.1"
   html:
     dependency: transitive
     description:
@@ -212,6 +231,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.9"
+  js_wrapping:
+    dependency: transitive
+    description:
+      name: js_wrapping
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.0"
   kernel:
     dependency: transitive
     description:
